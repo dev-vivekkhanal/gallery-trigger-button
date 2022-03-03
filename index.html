@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery trigger button</title>
+  </head>
+  <body>
+    <div id="profilepic">
+      <input
+        id="fileSelector"
+        type="file"
+        name="file"
+        accept="image/*"
+        capture="camera"
+      />
+      <!-- <button id="clickButton" onClick="openFileUpload();">Open Gallery</button> -->
+    </div>
+  </body>
+  <script>
+    function openFileUpload() {
+      document.getElementById("fileSelector").click();
+    }
+  </script>
+</html>
+
+<!-- Link -->
+
+<!-- 
+
+    https://stackoverflow.com/questions/27250504/onclick-image-the-gallery-opens
+
+ -->
